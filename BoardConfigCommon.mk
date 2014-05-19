@@ -62,6 +62,9 @@ else
   BOARD_HAVE_BLUETOOTH_BCM := true
 endif
 
+# GPS: The "new" GPS is really the old GPS, override it.
+BOARD_HAVE_NEW_QC_GPS :=
+
 # NFC
 BOARD_HAVE_NFC := true
 
